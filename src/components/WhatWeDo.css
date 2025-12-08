@@ -1,0 +1,445 @@
+.whatwedo-section {
+  padding: 100px 0;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.whatwedo-section .container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.whatwedo-content-block {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 100px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.whatwedo-content-block:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.whatwedo-content-block:nth-of-type(2) {
+  flex-direction: row !important;
+}
+
+.whatwedo-content-block:last-child {
+  margin-bottom: 0;
+}
+
+.whatwedo-text-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.whatwedo-image-content {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatwedo-circle-image {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+  border-radius: 0;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.whatwedo-circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.whatwedo-circle-image i {
+  font-size: 5rem;
+  color: #283593;
+  position: absolute;
+}
+
+.whatwedo-circle-image img {
+  position: relative;
+  z-index: 1;
+}
+
+.whatwedo-block-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.whatwedo-block-text {
+  text-align: left;
+  width: 100%;
+}
+
+.whatwedo-block-text p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 18px;
+  font-family: 'Raleway', sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.whatwedo-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.whatwedo-option-card {
+  background-color: #f8f9fa;
+  border-radius: 0;
+  padding: 30px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.whatwedo-option-card:hover {
+  border-color: #283593;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(40, 53, 147, 0.15);
+}
+
+.option-card-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.option-card-details {
+  text-align: left;
+}
+
+.option-card-details p {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.option-card-details i {
+  color: #283593;
+  width: 20px;
+}
+
+.whatwedo-cta-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.whatwedo-cta-button {
+  display: inline-block;
+  margin-top: 0;
+  padding: 15px 40px;
+  background: #283593;
+  color: white;
+  text-decoration: none;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  font-family: 'Raleway', sans-serif;
+}
+
+.whatwedo-cta-button:hover {
+  transform: translateY(-1px);
+  background: #1a237e;
+  box-shadow: 0 4px 12px rgba(40, 53, 147, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .whatwedo-block-title {
+    font-size: 2rem;
+  }
+
+  .whatwedo-circle-image {
+    width: 400px;
+    height: 400px;
+  }
+
+  .whatwedo-circle-image i {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .whatwedo-section {
+    padding: 80px 0;
+  }
+
+  .whatwedo-content-block {
+    flex-direction: column !important;
+    gap: 30px;
+    margin-bottom: 60px;
+    align-items: stretch;
+    width: 100%;
+    display: flex;
+  }
+
+  .whatwedo-content-block:nth-of-type(even) {
+    flex-direction: column !important;
+  }
+
+  .whatwedo-content-block:nth-of-type(2) {
+    flex-direction: column !important;
+  }
+
+  .whatwedo-text-content {
+    flex: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block;
+    order: 1 !important;
+    padding: 0;
+  }
+  
+  .whatwedo-image-content {
+    flex: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 2 !important;
+    padding: 0;
+  }
+  
+  /* 모든 섹션에서 모바일에서는 텍스트가 먼저, 이미지가 나중에 */
+  .whatwedo-content-block:nth-of-type(2) .whatwedo-text-content {
+    order: 1 !important;
+  }
+  
+  .whatwedo-content-block:nth-of-type(2) .whatwedo-image-content {
+    order: 2 !important;
+  }
+
+  .whatwedo-block-title {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .whatwedo-block-text {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .whatwedo-block-text p {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: block;
+    padding: 0;
+  }
+
+  .whatwedo-circle-image {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .whatwedo-circle-image i {
+    font-size: 3.5rem;
+  }
+
+  .whatwedo-options-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .whatwedo-option-card {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .whatwedo-cta-wrapper {
+    order: 3 !important;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .whatwedo-cta-button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 0;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatwedo-section {
+    padding: 60px 0;
+  }
+
+  .whatwedo-content-block {
+    gap: 25px;
+    margin-bottom: 50px;
+    align-items: stretch;
+    width: 100%;
+    flex-direction: column !important;
+    display: flex;
+  }
+
+  .whatwedo-content-block:nth-of-type(even) {
+    flex-direction: column !important;
+  }
+
+  .whatwedo-content-block:nth-of-type(2) {
+    flex-direction: column !important;
+  }
+
+  .whatwedo-text-content {
+    flex: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 15px;
+    display: block;
+    order: 1 !important;
+  }
+  
+  .whatwedo-image-content {
+    order: 2 !important;
+  }
+  
+  /* 모든 섹션에서 모바일에서는 텍스트가 먼저, 이미지가 나중에 */
+  .whatwedo-content-block:nth-of-type(2) .whatwedo-text-content {
+    order: 1 !important;
+  }
+  
+  .whatwedo-content-block:nth-of-type(2) .whatwedo-image-content {
+    order: 2 !important;
+  }
+  
+  .whatwedo-content-block:nth-of-type(3) .whatwedo-text-content {
+    order: 1 !important;
+  }
+  
+  .whatwedo-content-block:nth-of-type(3) .whatwedo-image-content {
+    order: 2 !important;
+  }
+
+  .whatwedo-block-title {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .whatwedo-block-text {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  .whatwedo-block-text p {
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    width: 100%;
+    display: block;
+  }
+
+  .whatwedo-image-content {
+    flex: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .whatwedo-circle-image {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .whatwedo-circle-image i {
+    font-size: 3rem;
+  }
+
+  .whatwedo-options-grid {
+    width: 100%;
+    gap: 15px;
+    grid-template-columns: 1fr !important;
+  }
+
+  .whatwedo-option-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .whatwedo-cta-wrapper {
+    order: 3 !important;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  
+  .whatwedo-cta-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
