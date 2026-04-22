@@ -55,27 +55,27 @@ const Testimonials = () => {
   const testimonials = [
     {
       icon: 'fas fa-quote-left',
-      quote: 'This Korean class course has completely transformed my understanding. The teachers are dedicated and present the material with such clarity and love. I\'ve grown more than I ever imagined.',
+      quote: 'This Korean course has completely transformed my understanding. The teachers are dedicated and present the material with such clarity and love. I\'ve grown more than I ever imagined.',
       author: 'Sarah Johnson, Student'
     },
     {
       icon: 'fas fa-quote-left',
-      quote: 'I\'m so grateful for this free opportunity to study God\'s Word from beginning to end. The online format makes it accessible, and the community support throughout the journey has been incredible.',
+      quote: 'I\'m so grateful for this free opportunity to study Korean from beginning to end. The online format makes it accessible, and the community support throughout the journey has been incredible.',
       author: 'Michael Brown, Student'
     },
     {
       icon: 'fas fa-quote-left',
-      quote: 'The scholarship program made it possible for me to join this life-changing course. The 7-8 month journey through the entire Korean class has deepened my understanding in ways I never expected.',
+      quote: 'The scholarship program made it possible for me to join this life-changing course. The 7-8 month journey through the entire Korean has deepened my understanding in ways I never expected.',
       author: 'Emily Davis, Student'
     },
     {
       icon: 'fas fa-quote-left',
-      quote: 'The Living Word Academy has helped me grow like never before. The teaching is deep, clear, and truly transformative. I recommend it to anyone seeking to understand Korean class better.',
+      quote: 'Global Korean class has helped me grow like never before. The teaching is deep, clear, and truly transformative. I recommend it to anyone seeking to understand Korean better.',
       author: 'David Wilson, Student'
     },
     {
       icon: 'fas fa-quote-left',
-      quote: 'This course has been a blessing in my life. The commitment to free Korean class education and the quality of teaching is outstanding. I\'ve learned so much about Korean class and its value for us.',
+      quote: 'This course has been a blessing in my life. The commitment to free Korean education and the quality of teaching is outstanding. I\'ve learned so much about Korean and its value for us.',
       author: 'Lisa Anderson, Student'
     }
   ];
@@ -128,7 +128,7 @@ const Testimonials = () => {
         <div className="testimonials-header">
           <h2 className="testimonials-title">Testimonials</h2>
           <p className="testimonials-subtitle">
-            Hear from our students who have been transformed through studying Korean class. Their testimonies reflect the impact of faithful Korean class teaching.
+            Hear from our students who have been transformed through studying Korean. Their testimonies reflect the impact of faithful Korean teaching.
           </p>
         </div>
         <div className="testimonials-carousel-wrapper">

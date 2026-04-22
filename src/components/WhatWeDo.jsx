@@ -23,19 +23,19 @@ const WhatWeDo = () => {
         {/* Section 1: Welcome - Text Left, Image Right */}
         <div className="whatwedo-content-block">
           <div className="whatwedo-text-content">
-            <h3 className="whatwedo-block-title">Welcome to The Living Word Academy</h3>
+            <h3 className="whatwedo-block-title">Welcome to Global Korean class</h3>
             <div className="whatwedo-block-text">
                   <p>
-                    At The Living Word Academy, our heart is to guide others in learning and understanding Korean class,
+                    At Global Korean class, our heart is to guide others in learning and understanding Korean,
                     following the example of Jesus and his disciples who taught freely and without cost.
                   </p>
                   <p>
-                    We offer a free online Korean class course that covers the entire Korean class, from beginning to end—available
+                    We offer a free online Korean course that covers the entire Korean, from beginning to end—available
                     to anyone, anywhere in the world, at any time.
                   </p>
                   <p>
                     Our team is made up of believers from diverse backgrounds, united by a shared desire to faithfully
-                    teach Korean class with clarity, love, and purpose. All of our courses are hosted fully online,
+                    teach Korean with clarity, love, and purpose. All of our courses are hosted fully online,
                     making it accessible no matter where you are.
                   </p>
                 </div>
@@ -44,7 +44,7 @@ const WhatWeDo = () => {
             <div className="whatwedo-circle-image">
               <img 
                 src="/img/whatwedo-welcome.jpg" 
-                alt="Welcome to The Living Word Academy - Korean class study and education"
+                alt="Welcome to Global Korean class - Korean study and education"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.nextSibling.style.display = 'flex';
@@ -61,7 +61,7 @@ const WhatWeDo = () => {
             <div className="whatwedo-circle-image">
               <img 
                 src="/img/whatwedo-course.jpg" 
-                alt="How the Course Works - Online Korean class course schedule"
+                alt="How the Course Works - Online Korean course schedule"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.nextSibling.style.display = 'flex';
@@ -98,36 +98,47 @@ const WhatWeDo = () => {
               </div>
             </div>
 
-        {/* Section 3: About the Scholarship - Text Left, Image Right */}
+        {/* Section 3: Real Conversation with Native Speakers - Text Left, Image Right */}
         <div className="whatwedo-content-block">
           <div className="whatwedo-text-content">
-            <h3 className="whatwedo-block-title">About the Scholarship</h3>
+            <h3 className="whatwedo-block-title">Real Conversation with Native Speakers</h3>
             <div className="whatwedo-block-text">
                   <p>
-                    At The Living Word Academy, we are grateful for the many students who desire to study Korean class with us.
-                    Because our course is offered completely free, we want to ensure that these opportunities are given to
-                    those who are ready to commit fully to the journey.
+                    At Global Korean class, we believe that real conversation with native speakers is the key to mastering Korean.
+                    Our program offers you the unique opportunity to practice authentic Korean through direct interaction
+                    with native Korean speakers.
                   </p>
                   <p>
-                    To help us identify committed students, we begin with an introductory class, where participants can learn
-                    how the program works and determine whether they are able to continue.
+                    Through our program, you'll engage in real-world conversations that go beyond textbook learning. You'll have
+                    the chance to practice speaking, listening, and understanding Korean in natural, everyday contexts with native speakers
+                    who will guide and support your learning journey.
                   </p>
                   <p>
-                    Students who attend consistently and demonstrate dedication will be invited to apply for the scholarship.
-                    This process includes completing a registration form and a brief conversation with a staff member to confirm
-                    readiness for the full course.
+                    This immersive experience allows you to develop practical communication skills, build confidence in real conversations,
+                    and gain cultural insights that only come from interacting with native speakers. Our native Korean instructors
+                    provide personalized feedback and create a supportive environment for authentic language practice.
                   </p>
                   <p>
-                    Once accepted, students transition from the intro sessions into the official Korean class course, where the full
-                    7–8 month study begins.
+                    Join us and experience the difference that real conversation with native speakers makes in your Korean language journey.
+                    Start speaking Korean confidently through authentic, meaningful dialogue.
                   </p>
+                </div>
+                <div className="whatwedo-cta-wrapper">
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdu7HpqIJaEagfRa0_DlEkpGw0oiIIjTNsUCgfLViNbsjJiyg/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="whatwedo-cta-button" 
+                  >
+                    Learn More
+                  </a>
                 </div>
               </div>
           <div className="whatwedo-image-content">
             <div className="whatwedo-circle-image">
               <img 
                 src="/img/whatwedo-scholarship.jpg" 
-                alt="About the Scholarship - Free Korean class education"
+                alt="Real Conversation with Native Speakers - Free Korean education"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.nextSibling.style.display = 'flex';
@@ -135,16 +146,6 @@ const WhatWeDo = () => {
               />
               <i className="fas fa-graduation-cap" style={{ display: 'none' }}></i>
             </div>
-          </div>
-          <div className="whatwedo-cta-wrapper">
-            <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdu7HpqIJaEagfRa0_DlEkpGw0oiIIjTNsUCgfLViNbsjJiyg/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="whatwedo-cta-button" 
-            >
-              Learn More
-            </a>
           </div>
         </div>
       </div>

@@ -153,10 +153,18 @@
   width: 20px;
 }
 
+.whatwedo-image-wrapper-scholarship {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
 .whatwedo-cta-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 30px;
+  width: 100%;
 }
 
 .whatwedo-cta-button {
@@ -297,10 +305,15 @@
     max-width: 100%;
   }
   
+  .whatwedo-image-wrapper-scholarship {
+    width: 100%;
+    gap: 20px;
+  }
+
   .whatwedo-cta-wrapper {
     order: 3 !important;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
   }
@@ -422,10 +435,15 @@
     box-sizing: border-box;
   }
 
+  .whatwedo-image-wrapper-scholarship {
+    width: 100%;
+    gap: 15px;
+  }
+
   .whatwedo-cta-wrapper {
     order: 3 !important;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     padding: 0 15px;

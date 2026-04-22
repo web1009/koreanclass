@@ -9,24 +9,24 @@ const Connect = () => {
           <span className="connect-label">Connect</span>
           <h2 className="connect-title">Join Our Community</h2>
           <p className="connect-card-description-white">
-                Ready to start your Korean class journey? Join our free online course today.
+                Ready to start your Korean journey? Join our free online course today.
               </p>
         </div>
 
         <div className="connect-grid-social">
-          {/* WhatsApp Community Card */}
+          {/* WhatsApp Channel Card */}
           <div className="connect-card">
             <div className="connect-card-content">
               <div className="connect-icon-large-wrapper">
                 <i className="fab fa-whatsapp connect-icon-brand connect-icon-whatsapp"></i>
               </div>
-              <h3 className="connect-card-title">WhatsApp Community</h3>
+              <h3 className="connect-card-title">WhatsApp Channel</h3>
               <p className="connect-card-description">
-                Join our WhatsApp community to stay connected with fellow students, receive updates, and participate in discussions.
+                Join our WhatsApp channel to stay connected with fellow students, receive updates, and participate in discussions.
               </p>
               <div className="connect-link-wrapper">
                 <a 
-                  href="https://chat.whatsapp.com/I5p0FLpWc337yBGa2QetDk" 
+                  href="https://whatsapp.com/channel/0029VbB4ZqBIHphF3E9XW90a" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="connect-social-link connect-social-link-whatsapp"
@@ -38,25 +38,25 @@ const Connect = () => {
             </div>
           </div>
 
-          {/* Instagram Card */}
+          {/* Facebook Card */}
           <div className="connect-card">
             <div className="connect-card-content">
               <div className="connect-icon-large-wrapper">
-                <i className="fab fa-instagram connect-icon-brand connect-icon-instagram"></i>
+                <i className="fab fa-facebook connect-icon-brand connect-icon-facebook"></i>
               </div>
-              <h3 className="connect-card-title">Instagram</h3>
+              <h3 className="connect-card-title">Facebook Group</h3>
               <p className="connect-card-description">
-                Follow us on Instagram for daily inspiration, Korean class content, course updates, and stories from our community.
+                Join our Facebook group for daily inspiration, Korean content, course updates, and stories from our community.
               </p>
               <div className="connect-link-wrapper">
                 <a 
-                  href="https://instagram.com/thelivingwordacademy" 
+                  href="https://www.facebook.com/groups/1074699934136643" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="connect-social-link connect-social-link-instagram"
+                  className="connect-social-link connect-social-link-facebook"
                 >
-                  <i className="fab fa-instagram"></i>
-                  <span>Go to Instagram</span>
+                  <i className="fab fa-facebook"></i>
+                  <span>Go to Facebook</span>
                 </a>
               </div>
             </div>

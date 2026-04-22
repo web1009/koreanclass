@@ -1,0 +1,72 @@
+.class-panorama-section {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  position: relative;
+}
+
+.panorama-container-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.panorama-container {
+  display: flex;
+  width: fit-content;
+  will-change: transform;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.panorama-image-wrapper {
+  flex-shrink: 0;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.panorama-image-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.panorama-image {
+  height: 100%;
+  width: auto;
+  min-width: 300px;
+  object-fit: contain;
+  display: block;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .class-panorama-section {
+    padding: 40px 0;
+  }
+
+  .panorama-image-wrapper {
+    height: 300px;
+  }
+
+  .panorama-container {
+    gap: 15px;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .panorama-image-wrapper {
+    height: 250px;
+  }
+
+  .panorama-container {
+    gap: 10px;
+    padding: 0 10px;
+  }
+}
+

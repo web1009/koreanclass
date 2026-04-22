@@ -8,7 +8,7 @@ const Gallery = () => {
     {
       id: 1,
       question: 'Is it really free?',
-      answer: "Yes, it's 100% free and conducted online. We believe in providing Korean class education without charge, so we don't charge either."
+      answer: "Yes, it's 100% free and conducted online. We believe in providing Korean education without charge, so we don't charge either."
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const Gallery = () => {
     },
     {
       id: 4,
-      question: "I don't know anything about Korean class. Is that okay?",
+      question: "I don't know anything about Korean. Is that okay?",
       answer: 'We teach from basics to advanced step by step, and there are assignments for review, so you don\'t need to worry at all.'
     }
   ];

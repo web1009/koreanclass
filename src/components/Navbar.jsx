@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="navbar-brand-wrapper">
           <img src="/logo.png" alt="Logo" className="navbar-logo-icon" />
           <a href="#infinite" className="navbar-brand" onClick={(e) => scrollToSection(e, 'infinite')}>
-            The Living Word Academy
+            Global Korean class
           </a>
         </div>
 

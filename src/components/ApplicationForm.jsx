@@ -13,7 +13,7 @@ const ApplicationForm = () => {
               <i className="fas fa-star"></i>
               <span>200 Full Scholarships Available</span>
             </div>
-            <p className="application-subtitle">100% FREE Online Korean Class Seminar</p>
+            <p className="application-subtitle">100% FREE Online Korean Seminar</p>
           </div>
 
           <div className="application-button-wrapper">

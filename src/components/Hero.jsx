@@ -66,7 +66,7 @@ const Hero = () => {
             <img 
               key={index}
               src={image} 
-              alt={`Korean Class ${index + 1}`} 
+              alt={`Korean ${index + 1}`} 
               className={`hero-main-image ${currentSlide === index ? 'active' : ''}`}
             />
           ))}
@@ -79,8 +79,8 @@ const Hero = () => {
           <div className="hero-content">
             {/* Headline Section */}
             <div className="hero-headline">
-              <h1 className="hero-main-title">The Living Word Academy</h1>
-              <p className="hero-sub-question">Are you looking for true happiness?</p>
+              <h1 className="hero-main-title">Global Korean class</h1>
+              <p className="hero-sub-question">Do you want to learn Korean properly?</p>
             </div>
           </div>
         </div>

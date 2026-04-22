@@ -8,7 +8,7 @@ const Benefits = () => {
     {
       number: '1',
       title: 'Free Course',
-      description: 'Our complete Korean class course is offered completely free. No hidden costs, no fees - just pure learning and spiritual growth.',
+      description: 'Our complete Korean course is offered completely free. No hidden costs, no fees - just pure learning and spiritual growth.',
       detailTitle: 'Free Course Results',
       strategy: 'Find your own positive strengths that help with learning. Set self-assessment criteria and develop a habit of regularly reviewing and supplementing them.',
       gaugeValue: 43,
@@ -50,7 +50,7 @@ const Benefits = () => {
     {
       number: '4',
       title: 'Full Course Access',
-      description: 'Once accepted, students transition from intro sessions into the official Korean class course, where the full 7–8 month study begins.',
+      description: 'Once accepted, students transition from intro sessions into the official Korean course, where the full 7–8 month study begins.',
       detailTitle: 'Full Course Access Results',
       strategy: 'Focus on completing the full course curriculum and apply the knowledge gained throughout the 7-8 month study period.',
       gaugeValue: 54,
@@ -83,7 +83,7 @@ const Benefits = () => {
     <section id="benefits" className="benefits-section">
       <div className="container">
         <div className="benefits-header">
-          <span className="benefits-label">About the Scholarship</span>
+          <span className="benefits-label">Real Conversation with Native Speakers</span>
           <h2 className="benefits-title">Excellent Learning Experience</h2>
         </div>
 
@@ -144,12 +144,15 @@ const Benefits = () => {
               {activeItem.detailTitle === 'Scholarship Application Results' && (
                 <>
                   <div className="benefit-highlight-box">
-                    <p className="benefit-highlight-text">Upon completion, you will receive a certificate!</p>
+                    <p className="benefit-highlight-text">You will have the opportunity to communicate with native Korean speakers!</p>
+                    <p className="benefit-highlight-text" style={{ marginTop: '15px', fontSize: '1rem' }}>
+                      Practice real conversations, improve your speaking skills, and gain confidence through direct interaction with native speakers who will guide and support your learning journey.
+                    </p>
                   </div>
                   <div className="benefit-image-box">
                     <img 
                       src="/img/whatwedo-scholarship.jpg" 
-                      alt="Scholarship" 
+                      alt="Native Speaker Communication" 
                       className="benefit-image"
                     />
                   </div>

@@ -62,7 +62,7 @@ const CourseSchedule = () => {
     {
       step: 'STEP 1',
       title: 'Introductory Level',
-      description: 'Build a strong foundation in Korean class study with fundamental teachings and basic concepts. Learn the essential principles that will guide your journey through Korean class.',
+      description: 'Build a strong foundation in Korean study with fundamental teachings and basic concepts. Learn the essential principles that will guide your journey through Korean.',
       duration: '2-3 months',
       icon: 'fas fa-book-open',
       bgColor: '#283593'
@@ -70,7 +70,7 @@ const CourseSchedule = () => {
     {
       step: 'STEP 2',
       title: 'Intermediate Level',
-      description: 'Deepen your understanding with advanced biblical analysis and interpretation. Explore complex themes and develop critical thinking skills in studying God\'s Word.',
+      description: 'Deepen your understanding with advanced Korean analysis and interpretation. Explore complex themes and develop critical thinking skills in studying Korean.',
       duration: '2-3 months',
       icon: 'fas fa-graduation-cap',
       bgColor: '#e9ecef'
@@ -78,7 +78,7 @@ const CourseSchedule = () => {
     {
       step: 'STEP 3',
       title: 'Advanced Level',
-      description: 'Master comprehensive Korean class study methods and insights. Apply your knowledge to real-life situations and become equipped to teach others.',
+      description: 'Master comprehensive Korean study methods and insights. Apply your knowledge to real-life situations and become equipped to teach others.',
       duration: '2-3 months',
       icon: 'fas fa-lightbulb',
       bgColor: '#283593'

@@ -209,11 +209,8 @@
   color: #25D366;
 }
 
-.connect-icon-instagram {
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.connect-icon-facebook {
+  color: #1877F2;
 }
 
 /* 브랜드 색상 버튼 */
@@ -227,14 +224,14 @@
   box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
 }
 
-.connect-social-link-instagram {
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  box-shadow: 0 2px 8px rgba(220, 39, 67, 0.3);
+.connect-social-link-facebook {
+  background: #1877F2;
+  box-shadow: 0 2px 8px rgba(24, 119, 242, 0.3);
 }
 
-.connect-social-link-instagram:hover {
-  background: linear-gradient(45deg, #e0852e 0%, #d55d31 25%, #c9223a 50%, #b91f5a 75%, #a8157a 100%);
-  box-shadow: 0 4px 12px rgba(220, 39, 67, 0.4);
+.connect-social-link-facebook:hover {
+  background: #166FE5;
+  box-shadow: 0 4px 12px rgba(24, 119, 242, 0.4);
 }
 
 /* Gradient Card Special Elements */

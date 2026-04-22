@@ -11,12 +11,12 @@ const Footer = () => {
             <h3 className="footer-heading">CONTACT</h3>
             <div className="footer-links">
               <a 
-                href="https://instagram.com/thelivingwordacademy" 
+                href="https://www.facebook.com/groups/1074699934136643" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="footer-link"
               >
-                Instagram
+                Facebook
               </a>
               <span className="footer-link">
                 WhatsApp
@@ -41,10 +41,10 @@ const Footer = () => {
         <div className="footer-lower">
           <div className="footer-logo">
             <img src="/logo.png" alt="Logo" className="footer-logo-icon" />
-            <span className="footer-logo-text">The Living Word Academy</span>
+            <span className="footer-logo-text">Global Korean class</span>
           </div>
           <div className="footer-copyright">
-            <p>©Copyright The Living Word Academy, {new Date().getFullYear()}. All Rights Reserved.</p>
+            <p>©Copyright Global Korean class, {new Date().getFullYear()}. All Rights Reserved.</p>
           </div>
         </div>
       </div>

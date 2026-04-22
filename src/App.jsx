@@ -7,6 +7,7 @@ import Connect from './components/Connect';
 import CourseSchedule from './components/CourseSchedule';
 import Benefits from './components/Benefits';
 import Testimonials from './components/Testimonials';
+import ClassPanorama from './components/ClassPanorama';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import StickyApplyBar from './components/StickyApplyBar';
@@ -21,6 +22,7 @@ function App() {
       <CourseSchedule />
       <Benefits />
       <Testimonials />
+      <ClassPanorama />
       <Gallery />
       <Footer />
       <StickyApplyBar />
